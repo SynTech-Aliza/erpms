@@ -149,15 +149,7 @@ require_once __DIR__ . '/../app/config.php';
                                     <span class="toggle-password" onclick="togglePassword()">
                                         <i class="fa fa-eye color-newprimary" id="hideunhidepassword"></i>
                                     </span>
-                                    <div class="row">
-                                        <div class="col-lg-12">
-                                            <div class="text-right">
-                                                <label class="color-primary">
-                                                    <a href="forgotpassword" class="text-primary">Forgot Password?</a>
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="p-b-20">
                                         <button type="submit" name="login" class="btn btn-block btn-newprimary">LOGIN</button>
                                     </div>
