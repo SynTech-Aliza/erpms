@@ -148,9 +148,7 @@
                                                 <button type="submit" name="searchdatabase" class="btn btn-sm btn-dark">Search</button>
                                             </form>
                                         </div>
-                                        <div class="btn-group">
-                                            <a href="../app/settings?databasebackup" class="btn btn-sm btn-success">Create Backup</a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                                 <!-- Table List -->
