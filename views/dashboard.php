@@ -151,6 +151,41 @@
                                 <div class="col-lg-4">
                                     <div class="card bg-newprimary">
                                         <div class="card-title">
+                                            <i class="fa-solid fa-route color-softgray f-s-15"></i>
+                                            <h4 class="text-softgray f-s-15"> Barangays <small class="f-s-10">+<?php echo $tnbf; ?> This Month</small></h4>
+                                        </div>
+                                        <div class="stat-content">
+                                            <h3 class="stat-text text-white"><?php echo $otbf; ?></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card bg-newprimary">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-building f-s-15 color-softgray"></i>
+                                            <h4 class="text-softgray f-s-15"> Households <small class="f-s-10">+<?php echo $tnhf; ?> This Month</small></h4>
+                                        </div>
+                                        <div class="stat-content">
+                                            <h3 class="stat-text text-white"><?php echo $othf; ?></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="card bg-newprimary">
+                                        <div class="card-title">
+                                            <i class="fa-solid fa-users color-softgray f-s-15"></i>
+                                            <h4 class="text-softgray f-s-15"> Populations <small class="f-s-10">+<?php echo $tnrf; ?> This Month</small></h4>
+                                        </div>
+                                        <div class="stat-content">
+                                            <h3 class="stat-text text-white"><?php echo $otpf; ?></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="card bg-newprimary">
+                                        <div class="card-title">
                                             <i class="fa-solid fa-building-user color-softgray f-s-15"></i>
                                             <h4 class="text-softgray f-s-15"> Registered Voters</h4>
                                         </div>
