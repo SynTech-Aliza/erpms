@@ -1,0 +1,15 @@
+{
+    "name": "trikeesolutions/e-rpms",
+    "description": "eRPMS Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Trikeesolutions\\ERpms\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.5"
+    }
+}
