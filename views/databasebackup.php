@@ -149,7 +149,11 @@
                                             </form>
                                         </div>
                                         <div class="btn-group">
+<<<<<<< HEAD
                                             <a href="../app/export?databasebackup" class="btn btn-sm btn-success">Create Backup</a>
+=======
+                                            <a href="../app/settings?databasebackup" class="btn btn-sm btn-success">Create Backup</a>
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
                                         </div>
                                     </div>
                                 </div>
@@ -326,4 +330,8 @@
     <script src="<?php echo BASE_URL; ?>public/assets/js/lib/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>public/assets/js/scripts.js"></script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd

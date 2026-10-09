@@ -19,6 +19,10 @@ class ComposerStaticInit871d8173ec026ed2a9257614f95fed9b
         array (
             'Psr\\SimpleCache\\' => 16,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
+<<<<<<< HEAD
+=======
+            'PHPMailer\\PHPMailer\\' => 20,
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
         ),
         'M' => 
         array (
@@ -48,6 +52,13 @@ class ComposerStaticInit871d8173ec026ed2a9257614f95fed9b
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
         ),
+<<<<<<< HEAD
+=======
+        'PHPMailer\\PHPMailer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
         'Matrix\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',

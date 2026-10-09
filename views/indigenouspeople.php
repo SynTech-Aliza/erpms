@@ -262,4 +262,8 @@
     <script src="<?php echo BASE_URL; ?>public/assets/js/lib/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>public/assets/js/scripts.js"></script>
 </body>
+<<<<<<< HEAD
 </html>voters
+=======
+</html>voters
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd

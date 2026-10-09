@@ -112,6 +112,10 @@
                             </div>
                         </div>
                         <section id="main-content">
+<<<<<<< HEAD
+=======
+                            
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
                             <div class="row">
                                 <div class="col-lg-4">
                                     <div class="card bg-newprimary">
@@ -928,4 +932,8 @@
     <script src="<?php echo BASE_URL; ?>public/assets/js/lib/bootstrap.min.js"></script>
     <script src="<?php echo BASE_URL; ?>public/assets/js/scripts.js"></script>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd

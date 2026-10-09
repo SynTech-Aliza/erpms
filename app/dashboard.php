@@ -271,6 +271,7 @@
 
         // Total Count
         $gettotalcount = "SELECT 
+<<<<<<< HEAD
             COUNT(DISTINCT h.`household_ID`) AS totalhouseholds,
             COUNT(DISTINCT h.`household_StreetPurok`) AS totalpuroks, 
             COUNT(DISTINCT r.`resident_ID`) AS totalresidents, 
@@ -280,6 +281,23 @@
             COUNT(DISTINCT CASE WHEN r.`resident_Indigenous` = 1 THEN r.`resident_ID` END) AS totalindigenous, 
             COUNT(DISTINCT CASE WHEN r.`resident_ParentStatus` = 'YES' THEN r.`resident_ID` END) AS totalsoloparents, 
             COUNT(DISTINCT CASE WHEN TIMESTAMPDIFF(YEAR, r.`resident_DateofBirth`, CURDATE()) >= 60 THEN r.`resident_ID` END) AS totalseniorscitizens FROM `rpms_households` h LEFT JOIN `rpms_residents` r ON h.`household_Barangay` = r.`resident_Barangay` WHERE h.`household_Barangay` = '$appointed'";
+=======
+                COUNT(DISTINCT h.`household_ID`) AS totalhouseholds,
+                COUNT(DISTINCT h.`household_StreetPurok`) AS totalpuroks,
+                COUNT(DISTINCT r.`resident_ID`) AS totalresidents,
+                SUM(r.`resident_VoterStatus` = 'REGISTERED') AS totalregisteredvoters,
+                SUM(r.`resident_PWD` = 1) AS totalpwd,
+                SUM(r.`resident_Fourps` = 1) AS total4ps,
+                SUM(r.`resident_Indigenous` = 1) AS totalindigenous,
+                SUM(r.`resident_ParentStatus` = 'YES') AS totalsoloparents,
+                COUNT(DISTINCT CASE 
+                    WHEN TIMESTAMPDIFF(YEAR, r.`resident_DateofBirth`, CURDATE()) >= 60 
+                    THEN r.`resident_ID` 
+                END) AS totalseniorscitizens
+            FROM `rpms_households` h
+            LEFT JOIN `rpms_residents` r ON h.`household_Barangay` = r.`resident_Barangay`
+            WHERE h.`household_Barangay` = '$appointed'";
+>>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
         $resulttotalcount = mysqli_query($connection, $gettotalcount);
         $row = mysqli_fetch_assoc($resulttotalcount);
         $othf   = number_format($row['totalhouseholds']);
