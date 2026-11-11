@@ -3,7 +3,8 @@
 define('ROOT_PATH', dirname(__DIR__));
 
 // Define server path
-define('SERVER_PATH', ROOT_PATH . '../app/');
+// define('SERVER_PATH', ROOT_PATH . '../app/');
+define('SERVER_PATH', ROOT_PATH . '/app/');
 
 // Define assets path
 define('BASE_URL', '../'); // assets

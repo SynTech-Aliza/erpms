@@ -140,11 +140,7 @@ require_once __DIR__ . '/../app/config.php';
                                     </div>
                                     <div class="p-b-20">
                                         <button type="submit" name="confirmemail" class="btn btn-primary">SENT</button>
-<<<<<<< HEAD
                                     <a href="/eRPMS" class="btn btn-default">CANCEL</a>
-=======
-                                    <a href="/Personal-System/eRPMS" class="btn btn-default">CANCEL</a>
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
                                     </div>
                                 </form>
                             </div>

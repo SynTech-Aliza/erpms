@@ -10,10 +10,7 @@ return array(
     'Trikeesolutions\\ERpms\\' => array($baseDir . '/src'),
     'Psr\\SimpleCache\\' => array($vendorDir . '/psr/simple-cache/src'),
     'PhpOffice\\PhpSpreadsheet\\' => array($vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet'),
-<<<<<<< HEAD
-=======
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
     'Matrix\\' => array($vendorDir . '/markbaker/matrix/classes/src'),
     'Composer\\Pcre\\' => array($vendorDir . '/composer/pcre/src'),
     'Complex\\' => array($vendorDir . '/markbaker/complex/classes/src'),

@@ -277,8 +277,6 @@
             "install-path": "../markbaker/matrix"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "phpmailer/phpmailer",
             "version": "v7.1.1",
             "version_normalized": "7.1.1.0",
@@ -364,7 +362,6 @@
             "install-path": "../phpmailer/phpmailer"
         },
         {
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
             "name": "phpoffice/phpspreadsheet",
             "version": "5.5.0",
             "version_normalized": "5.5.0.0",

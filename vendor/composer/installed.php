@@ -46,8 +46,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
-<<<<<<< HEAD
-=======
         'phpmailer/phpmailer' => array(
             'pretty_version' => 'v7.1.1',
             'version' => '7.1.1.0',
@@ -57,7 +55,6 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
         'phpoffice/phpspreadsheet' => array(
             'pretty_version' => '5.5.0',
             'version' => '5.5.0.0',

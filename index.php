@@ -7,11 +7,7 @@ require_once 'config/database.php';
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<<<<<<< HEAD
-    <title>Digital Resident Profiling Management System (DRPMS)</title>
-=======
     <title>Digital Resident Profiling and Census Management System (DRPCMS)</title>
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
     <link rel="icon" type="image/x-icon" href="storage/logos/<?php echo $systemlogo; ?>">
     <!-- Styles -->
     <link href="public/assets/icons/fontawesome 6.3.0/css/all.css" rel="stylesheet">

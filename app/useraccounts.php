@@ -147,11 +147,7 @@
                         $mail->addReplyTo('drpcmstechnicalsupport@gmail.com', 'Technical Support');
 
                         $fullname = $firstname . ' ' . ($middlename ? $middlename . ' ' : '') . $lastname;
-<<<<<<< HEAD
                         $systemLink = "http://localhost/eRPMS";
-=======
-                        $systemLink = "http://localhost/Personal-System/eRPMS";
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
 
                         $mail->isHTML(true);
                         $mail->Subject = 'Your Account Credentials for Digital Resident Profiling and Census Management System (DRPCMS)';
@@ -413,11 +409,7 @@
                             $mail->addReplyTo('drpcmstechnicalsupport@gmail.com', 'Technical Support');
 
                             $fullname = $ufirstname . ' ' . ($umiddlename ? $umiddlename . ' ' : '') . $ulastname;
-<<<<<<< HEAD
                             $systemLink = "http://localhost/eRPMS";
-=======
-                            $systemLink = "http://localhost/Personal-System/eRPMS";
->>>>>>> ec28f0859aace89c457ce703dfd179e5118fdcdd
 
                             $mail->isHTML(true);
                             $mail->Subject = 'Your Account Password Has Been Reset for Digital Resident Profiling and Census Management System (DRPCMS)';
